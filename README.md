@@ -1,7 +1,6 @@
 // this pipeline script
 
 
-
 node {
     stage('Clone Repository') {
         echo 'Cloning the GitHub repository...'
