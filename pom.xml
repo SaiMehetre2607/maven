@@ -3,4 +3,20 @@
   <groupId>A2gecko</groupId>
   <artifactId>A2gecko</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+ <dependencies>
+    <!-- Selenium Java -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.21.0</version>
+    </dependency>
+
+    <!-- WebDriver Manager (Optional but recommended for managing drivers automatically) -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.7.0</version>
+    </dependency>
+</dependencies>
+ 
 </project>
